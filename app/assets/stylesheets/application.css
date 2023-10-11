@@ -13,3 +13,105 @@
  *= require_tree .
  *= require_self
  */
+
+.si_p{
+    width: 125px;
+}
+
+.si_home{
+    text-decoration: none;
+    color:gray;
+}
+
+.form input[type=label]{
+    font-size:16px;
+}
+.form input[type="submit"]{
+    color:white;
+    background-color:#00afcc;
+    margin: 10%;
+    margin-left:80%;
+    
+ }
+.form input[type=text_field]{
+    width:150px;
+    hight:75%;
+    font-size:12px;
+    
+}
+.menu{
+    padding-right:80px;
+    display:flex;
+    color:gray;
+    width: 40%;
+}
+
+.menu p{
+    margin-right:30px;
+}
+
+.si_new{
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20%;
+    color:white;
+    background-color:#00afcc;
+    padding: 3%;
+    border-radius:10px;
+}
+
+.si_new:hover{
+    color:blue;
+}
+
+.c_new{
+    text-decoration: none;
+    color:black;
+    border-bottom:3px solid #00afcc;
+}
+
+.main_tweet{
+    margin-top:1%;
+    font-size:120%;
+    border:1px solid gray;
+}
+
+.tw_ti{
+    font-size:20%;
+    color:gray;
+}
+
+.tw_bt{
+    text-decoration: none;
+    color:gray;
+}
+
+#midcontent{
+    display:flex;
+}
+
+#header{
+    margin: 1%;
+}
+
+#sidebar{
+    color: gray;
+    font-size:120%;
+    margin-left: 3%;
+    margin-bottom:10%;
+    border-right: 1px solid gray;
+}
+
+#content{
+    padding:1%;
+}
+
+#footer{
+    font-size:20%;
+    text-align:center;
+}
+
+img{
+    width:30%;
+    hight: auto;
+}
